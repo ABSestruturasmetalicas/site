@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/imgs.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="../imgs/logo.jpeg" width="100px" height="100px" alt="Logo ABS Estruturas">
+        <nav class="menu">
+            <ul>
+                <li class="home">
+                    <a href="../../index.html">
+                        <button>Home</button>
+                    </a>
+                </li>
+                <li class="products">
+                    <button id="showProductsBtn">Produtos</button>
+                    <ul id="productsList" style="display: none;">
+                        <li class="portoes">
+                            <a href="portoes.html">
+                                <button>Portões</button>
+                            </a>
+                        </li>
+                        <li class="grades">
+                            <a href="grades.html">
+                                <button>Grades</button>
+                            </a>
+                        </li>
+                        <li class="corrimaos">
+                            <a href="corrimaos.html">
+                                <button>Corrimãos</button>
+                            </a>
+                        </li>
+                        <li class="outros">
+                            <a href="outros.html">
+                                <button>outros</button>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="contato">
+                    <a href="contato.html">
+                        <button>Contato</button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="galeria">
+        <p class="text-galery" style="font-size: 500%;">Estruturas</p>
+        
+        <div class="image-grid">
+            <button class="image-button"><img src="../imgs/estruturas/1.jpeg" alt=""></button>
+            <button class="image-button"><img src="../imgs/estruturas/2.jpeg"alt=""></button>
+        </div>
+    
+        <div id="modal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="imagem-ampliada">
+        </div>
+    </div>
+    
+      
+
+
+
+    <footer>
+        <section class="contato">
+            <img class="logoFooter" src="../imgs/logo.jpeg" alt="Logo ABS Estruturas">
+            <p class="telefone">
+                <img class="telefonelogo" src="../imgs/telefone.png" alt="Ícone de telefone"> (55) 9 9963-2639
+            </p>
+            <p class="email">
+                <img class="emaillogo" src="../imgs/email.png" alt="Ícone de e-mail"> andresbaratto4@gmail.com
+            </p>
+        </section>
+
+        <section class="produtos2">
+            <ul>
+                <li>
+                    <p class="p">Produtos</p>
+                </li>
+                <li class="portoes2">
+                    <a href="portoes.html">Portões</a>
+                </li>
+                <li class="grades2">
+                    <a href="grades.html">Grades</a>
+                </li>
+                <li class="corrimaos2">
+                    <a href="corrimaos.html">Corrimãos</a>
+                </li>
+                <li class="outros2">
+                    <a href="outros.html">Diversos</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="direitos">
+            <p>&copy; 2017 ABS Estruturas. Todos os direitos reservados.</p>
+        </section>
+
+        <button class="button" id="backToTopBtn" ><svg class="svgIcon" viewBox="0 0 384 512">
+            <path
+              d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+            ></path>
+          </svg>
+        </button>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
